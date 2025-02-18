@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benjama Link Up</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+          integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="stylecontact.css">
+</head>
+<body>
+    <div class="Head">
+        <h1>Contact</h1>
+    <nav>
+        <div class="right-container">
+            <div class="nav-con-right">
+                <ul class="right-menu">
+                    <a href="report.html"><i class="fa-regular fa-circle-question"></i></a>
+                    <a href="sign-up.html"><i class="fa-solid fa-user"></i></a>
+                </ul>
+            </div>
+        </div>
+        <div class="small-container">
+        </div>
+        <div class="left-container">
+            <div class="nav-con">
+                <div class="logo">
+                    <img src="picture/bm logo.png" alt="Benjama Logo" class="benjama-logo">
+                </div>
+                <ul class="menu">
+                    <li><a href="index.html"><i class="fa-solid fa-house"></i></a></li>
+                    <li><a href="map.html"><i class="fa-regular fa-map"></i></a></li>
+                    <li><a href="booking.html"><i class="fa-regular fa-bookmark"></i></a></li>
+                    <li><a href="more.html"><i class="fa-solid fa-ellipsis-vertical"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <script>
+        var prevScrollpos = window.pageYOffset;
+
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+
+        // Show or hide the left container based on scroll direction
+        if (prevScrollpos > currentScrollPos) {
+            document.querySelector('.left-container').style.left = "0"; // Show left sidebar
+        } else {
+            document.querySelector('.left-container').style.left = "-90px"; // Hide left sidebar
+        }
+
+        prevScrollpos = currentScrollPos;
+}
+
+    </script>
+    <div class="contact-container">
+         <div class="card1">
+            <a href="https://www.instagram.com/mai_ru_arai/"><i class="fa-brands fa-instagram"></i></li></a>
+            <h4>นายกัญจน์ ชีวิตโสภณ </h4>
+         </div>
+         <div class="card2">
+            <a href="https://www.instagram.com/oat_bhskk/"><i class="fa-brands fa-instagram"></i></li></a>
+            <h4>นายภูสัน เกตุเกลี้ยง</h4>
+         </div>
+         <div class="card3">
+            <a href="https://www.instagram.com/tanboiii.51/"><i class="fa-brands fa-instagram"></i></li></a>
+            <h4>นายภัทรทร เซี่ยงฉิน</h4>
+         </div>
+         <div class="card4">
+            <a href="https://www.instagram.com/arai_dee_wa/"><i class="fa-brands fa-instagram"></i></li></a>
+            <h4>นายศิวกร ประจันพล</h4>
+        </div>
+    </div>
+    <div class="contact-container2">
+        <div class="card5">
+             <a href="https://www.instagram.com/nattisa._/" class="link"><i class="fa-brands fa-instagram"></i></a>
+             <h5>น.ส.ณัฐธิสา ช้างนิล</h5>
+        </div>
+        <div class="card6">
+             <a href="https://www.instagram.com/glfkgofk/" class="link"><i class="fa-brands fa-instagram"></i></a>
+             <h5>นายกันต์รวิทย์ เลขาทิพย์</h5>
+        </div>
+        <div class="card7">
+             <a href="https://www.instagram.com/phetrrda/" class="link"><i class="fa-brands fa-instagram"></i></a>
+             <h5>น.ส.เพชรรดา พูดเพราะ</h5>
+        </div>
+        <div class="card8">
+             <a href="https://www.instagram.com/xpnv__x/" class="link"><i class="fa-brands fa-instagram"></i></a>
+             <h5>นายปัณณวิชญ์ ไพรสณฑ์</h5>
+       </div>
+   </div>
+    <div class="report-btn">
+        <a href="report.html"><buttonRe>port</button></a>
+    </div>
+</body>
+</html>

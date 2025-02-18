@@ -1,0 +1,268 @@
+@font-face {
+    font-family: 'Premier League';
+    src: url('PremierLeague-Bold.eot');
+    src: local('Premier League Bold'), local('PremierLeague-Bold'),
+        url('PremierLeague-Bold.eot?#iefix') format('embedded-opentype'),
+        url('PremierLeague-Bold.woff2') format('woff2'),
+        url('PremierLeague-Bold.woff') format('woff'),
+        url('PremierLeague-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Premier League';
+    src: url('PremierLeague-Italic.eot');
+    src: local('Premier League Italic'), local('PremierLeague-Italic'),
+        url('PremierLeague-Italic.eot?#iefix') format('embedded-opentype'),
+        url('PremierLeague-Italic.woff2') format('woff2'),
+        url('PremierLeague-Italic.woff') format('woff'),
+        url('PremierLeague-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Premier League';
+    src: url('PremierLeague-HeavyItalic.eot');
+    src: local('Premier League Heavy Italic'), local('PremierLeague-HeavyItalic'),
+        url('PremierLeague-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('PremierLeague-HeavyItalic.woff2') format('woff2'),
+        url('PremierLeague-HeavyItalic.woff') format('woff'),
+        url('PremierLeague-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Premier League';
+    src: url('PremierLeague-Regular.eot');
+    src: local('Premier League'), local('PremierLeague-Regular'),
+        url('PremierLeague-Regular.eot?#iefix') format('embedded-opentype'),
+        url('PremierLeague-Regular.woff2') format('woff2'),
+        url('PremierLeague-Regular.woff') format('woff'),
+        url('PremierLeague-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Premier League';
+    src: url('PremierLeague-LightItalic.eot');
+    src: local('Premier League Light Italic'), local('PremierLeague-LightItalic'),
+        url('PremierLeague-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('PremierLeague-LightItalic.woff2') format('woff2'),
+        url('PremierLeague-LightItalic.woff') format('woff'),
+        url('PremierLeague-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Premier League';
+    src: url('PremierLeague-Heavy.eot');
+    src: local('Premier League Heavy'), local('PremierLeague-Heavy'),
+        url('PremierLeague-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('PremierLeague-Heavy.woff2') format('woff2'),
+        url('PremierLeague-Heavy.woff') format('woff'),
+        url('PremierLeague-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Premier League';
+    src: url('PremierLeague-Light.eot');
+    src: local('Premier League Light'), local('PremierLeague-Light'),
+        url('PremierLeague-Light.eot?#iefix') format('embedded-opentype'),
+        url('PremierLeague-Light.woff2') format('woff2'),
+        url('PremierLeague-Light.woff') format('woff'),
+        url('PremierLeague-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Premier League';
+    src: url('PremierLeague-BoldItalic.eot');
+    src: local('Premier League Bold Italic'), local('PremierLeague-BoldItalic'),
+        url('PremierLeague-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('PremierLeague-BoldItalic.woff2') format('woff2'),
+        url('PremierLeague-BoldItalic.woff') format('woff'),
+        url('PremierLeague-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+*
+{
+    padding-left:10px ;
+    margin:0x;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Premier League';
+    font-weight: 400;
+    font-style: normal;
+    margin: 0px ; 
+    padding: 0; 
+    height: 100vh; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background-color: #c2272d;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 40px;
+    z-index:18 ;
+    
+    
+}
+.left-title h2{
+    font-weight: 900;
+    color: rgba(240, 255, 255, 0.938);
+    font-size: 40px;
+    margin-bottom: 10px;
+
+}
+.left-title h3{
+    font-weight: 700;
+    color: rgba(240, 255, 255, 0.938);
+    font-size:40px;
+    margin-bottom: 10px;
+    
+    
+}
+.left-title hr{
+    border: none;
+    width: auto;
+    height: 5px;
+    background-color: floralwhite;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+}
+.container{
+    z-index:19;
+}
+.container input{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    padding-left: 50px;
+    border: none; 
+    border-bottom: 1px solid salmon;
+    margin-bottom: 20px;
+    font-family: 'Premier League';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    align-items: center;
+    outline: 1px solid crimson;
+    border-radius: 50px;
+    z-index:25;
+    outline: red;
+    margin: 14px 16px;
+    
+}
+.container textarea{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    padding-left: 50px;
+    border: none; 
+    border-bottom: 1px solid salmon;
+    margin-bottom: 20px;
+    font-family: 'Premier League';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    align-items: center;
+    outline: 1px solid crimson;
+    border-radius: 50px;
+    margin: 14px 16px;
+    z-index:20;
+}
+.contact-i:focus{
+    border: 2px solid goldenrod;
+}
+.right img{
+    width:100px;
+    height:100px;
+    z-index: 10px;
+    margin-bottom: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+      
+}
+.container button{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-family: 'Premier League';
+    font-weight: 900;
+    font-size: 18px;
+    color: #c2272d;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: #fff;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.4); 
+}
+.left-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 90px;
+    background: #c2262d;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    z-index: -1;
+    transition: left 0.5s ease;
+}
+
+
+.back li {
+    display: flex;
+    justify-content: center;  
+    width:50px;
+    height:50px;
+    margin-bottom:20px ;
+}
+
+.back i {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 10em;
+    padding: 12px;
+    border-radius: 5px;
+    transition: font-size 0.3s ease, transform 0.3s ease;
+}
+
+.back i:hover {
+    font-size: 20em;
+    transform: scale(1.1);
+    background-color: #333;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}

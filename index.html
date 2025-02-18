@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benjama Link Up</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+          integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="right-container">
+            <div class="nav-con-right">
+                <ul class="right-menu">
+                    <a href="report.html"><i class="fa-regular fa-circle-question"></i></a>
+                    <a href="sign-up.html"><i class="fa-solid fa-user"></i></a>
+                </ul>
+            </div>
+        </div>
+        <div class="small-container">
+        </div>
+        <div class="left-container">
+            <div class="nav-con">
+                <div class="logo">
+                    <img src="picture/bm logo.png" alt="Benjama Logo" class="Benjama-Logo">
+                </div>
+                <ul class="menu">
+                    <a href="map.html"><i class="fa-regular fa-map"></i></li></a>
+                    <a href="contact.html"><i class="fa-solid fa-phone"></i> </li></a>
+                    <a href="booking.html"><i class="fa-regular fa-bookmark"></i></li></a>
+                    <a href="more.html"><i class="fa-solid fa-ellipsis-vertical"></i></li></a>
+                </ul>
+            </div>
+        </div>
+        <div class="app-container">
+            <div class="app-linker-con">
+                <ul class="app-linker">
+                    <a href="https://www.facebook.com/StudentcouncilBM?locale=th_TH"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/scbm.official/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/@%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%80%E0%B8%9A%E0%B8%8D%E0%B8%88%E0%B8%A1%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%B9%E0%B8%97%E0%B8%B4"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.tiktok.com/@pr.benjama"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://discord.gg/k72pqFJwjA"><i class="fa-brands fa-discord"></i></a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="home background">
+        <img src="/picture/bm.jpeg" alt="">
+    </section>
+    <script>
+        var prevScrollpos = window.pageYOffset;
+
+window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+
+    if (prevScrollpos > currentScrollPos) {
+        document.querySelector('.left-container').style.left = "0"; 
+        document.querySelector('.app-linker').style.right = "0"; 
+    } else {
+        document.querySelector('.left-container').style.left = "-90px"; 
+        document.querySelector('.app-linker').style.right = "-90px"; 
+    }
+
+    prevScrollpos = currentScrollPos;
+}
+    </script>
+
+    <div class="rectangle-container">
+        <section class="team">
+            <div class="teams-item">
+            <a href="https://www.benjama.ac.th/2025/student-news/2568-stuspacial-m1-m4/">Read more</a>
+            </div>
+            <div class="teams-item2">
+                <a href="https://www.benjama.ac.th/2025/announce/dpst68/">Read more</a>
+                </div>
+            <div class="teams-item3">
+                    <a href="https://www.benjama.ac.th/2024/academic/67-pretest-m3/">Read more</a>
+                </div>
+             <div class="teams-item4">
+                    <a href="https://www.benjama.ac.th/2024/academic/67-pretest-p6/">Read more</a>
+                    </div>
+                </section>
+    </div>
+    
+    
+  <body onload="startTime()">
+
+    <div id="txt"></div>
+    <script>
+    function startTime() {
+    const today = new Date();ผ
+    let h = today.getHours();
+    let m = today.getMinutes();
+    let s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);           
+    document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+    setTimeout(startTime, 1000);
+    }
+
+    function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+    }
+    </script>
+
+</body>
+
+<footer>
+    <img src="picture/bm logo.png" alt="Benjama Logo" class="Benjama-Logo-bottom">
+</footer>
+</html>

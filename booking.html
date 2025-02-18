@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="stylebooking.css" />
+    <title>Web Design Mastery | WDM&Co</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <nav>
+       <div class="right-container">
+            <div class="nav-con-right">
+                <ul class="right-menu">
+                    <a href="report.html"><i class="fa-regular fa-circle-question"></i></a>
+                    <a href="sign-up.html"><i class="fa-solid fa-user"></i></a>
+                </ul>
+            </div>
+        </div>
+        <div class="small-container">
+        </div>
+        <div class="left-container">
+            <div class="nav-con">
+                <div class="logo">
+                    <img src="picture/bm logo.png" alt="Benjama Logo" class="benjama-logo">
+                </div>
+                <ul class="menu">
+                    <li><a href="index.html"><i class="fa-solid fa-house"></i></a></li>
+                    <li><a href="contact.html"><i class="fa-solid fa-phone"></i></a></li>
+                    <li><a href="map.html"><i class="fa-regular fa-map"></i></a></li>
+                    <li><a href="bookingstatus.html"><i class="fa-solid fa-truck-fast"></i></a></li>
+                    <li><a href="more.html"><i class="fa-solid fa-ellipsis-vertical"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="section__container header__container">
+      <div class="header__image__container">
+        <form method="post" action=""name="contact-form">
+          <div class="header__content">
+            <h1>Reservation</h1>
+          </div>
+          <div class="booking__container">
+            <div class="form__group">
+              <div class="input__group">
+                <input type="text" name="your-name" placeholder="สถานที่" required />
+              </div>
+            </div>
+            <div class="form__group">
+              <div class="input__group">
+                <input type="text" name="your-contact" placeholder="ใช้ทำกิจกรรมอะไร" required />
+              </div>
+            </div>
+            <div class="form__group">
+              <div class="input__group">
+                <input type="text" name="your-email" placeholder="ลงชื่อผู้จอง" required />
+              </div>
+            </div>
+            <div class="form__group">
+              <div class="input__group">
+                <input type="text" name="time" placeholder="เวลา" required />
+              </div>
+            </div>
+            <input type="submit" value="Submit" id="submit">
+          </div>
+        </form>
+      </div>
+    </header>
+    <section class="section__container popular__container">
+      <h2 class="section__header">Available spot</h2>
+      <div class="popular__grid">
+        <div class="popular__card">
+          <div class="popular__content">
+            <div class="popular__card__header">
+              <h4>PraduDaeng Auditorium</h4>
+              <h5>Period 9</h5>
+            </div>
+            <p>Building 6 1st Floor</p>
+          </div>
+        </div>
+        <div class="popular__card">
+          <div class="popular__content">
+            <div class="popular__card__header">
+              <h4>Room 536</h4>
+              <h5>Period 10</h5>
+            </div>
+            <p>building 5 3rd Floor</p>
+          </div>
+        </div>
+        <div class="popular__card">
+          <div class="popular__content">
+            <div class="popular__card__header">
+              <h4>KunPorNub Meeting Room</h4>
+              <h5>Period 7 8</h5>
+            </div>
+            <p>Building 5 1st Floor</p>
+          </div>
+        </div>
+        <div class="popular__card">
+          <div class="popular__content">
+            <div class="popular__card__header">
+              <h4>LanChongKo</h4>
+              <h5>Period 9 10 </h5>
+            </div>
+          </div>
+        </div>
+        <div class="popular__card">
+          <div class="popular__content">
+            <div class="popular__card__header">
+              <h4>LanMaKam</h4>
+              <h5>Period 9 10 </h5>
+            </div>
+          </div>
+        </div>
+        <div class="popular__card">
+          <div class="popular__content">
+            <div class="popular__card__header">
+              <h4>Thatchamunee Auditorium</h4>
+              <h5>Period 9 10 </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+    </section>
+  <script src="/js/codejs01.js"></script>
+  </body>
+  <script>
+    var prevScrollpos = window.pageYOffset;
+
+    window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+
+    // Show or hide the left container based on scroll direction
+    if (prevScrollpos > currentScrollPos) {
+        document.querySelector('.left-container').style.left = "0"; // Show left sidebar
+    } else {
+        document.querySelector('.left-container').style.left = "-90px"; // Hide left sidebar
+    }
+
+    prevScrollpos = currentScrollPos;
+}
+</script>
+</html>

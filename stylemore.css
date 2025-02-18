@@ -1,0 +1,288 @@
+@font-face {
+    font-family: 'Premier League';
+    src: url('PremierLeague-Bold.eot');
+    src: local('Premier League Bold'), local('PremierLeague-Bold'),
+        url('PremierLeague-Bold.eot?#iefix') format('embedded-opentype'),
+        url('PremierLeague-Bold.woff2') format('woff2'),
+        url('PremierLeague-Bold.woff') format('woff'),
+        url('PremierLeague-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Premier League';
+    src: url('PremierLeague-Italic.eot');
+    src: local('Premier League Italic'), local('PremierLeague-Italic'),
+        url('PremierLeague-Italic.eot?#iefix') format('embedded-opentype'),
+        url('PremierLeague-Italic.woff2') format('woff2'),
+        url('PremierLeague-Italic.woff') format('woff'),
+        url('PremierLeague-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Premier League';
+    src: url('PremierLeague-HeavyItalic.eot');
+    src: local('Premier League Heavy Italic'), local('PremierLeague-HeavyItalic'),
+        url('PremierLeague-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('PremierLeague-HeavyItalic.woff2') format('woff2'),
+        url('PremierLeague-HeavyItalic.woff') format('woff'),
+        url('PremierLeague-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Premier League';
+    src: url('PremierLeague-Regular.eot');
+    src: local('Premier League'), local('PremierLeague-Regular'),
+        url('PremierLeague-Regular.eot?#iefix') format('embedded-opentype'),
+        url('PremierLeague-Regular.woff2') format('woff2'),
+        url('PremierLeague-Regular.woff') format('woff'),
+        url('PremierLeague-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Premier League';
+    src: url('PremierLeague-LightItalic.eot');
+    src: local('Premier League Light Italic'), local('PremierLeague-LightItalic'),
+        url('PremierLeague-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('PremierLeague-LightItalic.woff2') format('woff2'),
+        url('PremierLeague-LightItalic.woff') format('woff'),
+        url('PremierLeague-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Premier League';
+    src: url('PremierLeague-Heavy.eot');
+    src: local('Premier League Heavy'), local('PremierLeague-Heavy'),
+        url('PremierLeague-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('PremierLeague-Heavy.woff2') format('woff2'),
+        url('PremierLeague-Heavy.woff') format('woff'),
+        url('PremierLeague-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Premier League';
+    src: url('PremierLeague-Light.eot');
+    src: local('Premier League Light'), local('PremierLeague-Light'),
+        url('PremierLeague-Light.eot?#iefix') format('embedded-opentype'),
+        url('PremierLeague-Light.woff2') format('woff2'),
+        url('PremierLeague-Light.woff') format('woff'),
+        url('PremierLeague-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Premier League';
+    src: url('PremierLeague-BoldItalic.eot');
+    src: local('Premier League Bold Italic'), local('PremierLeague-BoldItalic'),
+        url('PremierLeague-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('PremierLeague-BoldItalic.woff2') format('woff2'),
+        url('PremierLeague-BoldItalic.woff') format('woff'),
+        url('PremierLeague-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Anuphan';
+    src: url('Anuphan-Thin.ttf');
+    src: local('Anuphan Thin'), local('Anuphan_Thin'),
+        url('Anuphan-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Anuphan';
+    src: url('Anuphan-ExtraLight.ttf');
+    src: local('Anuphan ExtraLight'), local('Anuphan_ExtraLight'),
+        url('Anuphan-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Anuphan';
+    src: url('Anuphan-Normal.ttf');
+    src: local('Anuphan Normal'), local('Anuphan_Normal'),
+        url('Anuphan-Normal.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Anuphan';
+    src: url('Anuphan-Regular.ttf');
+    src: local('Anuphan Regular'), local('Anuphan_Regular'),
+        url('Anuphan-Regular.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Anuphan';
+    src: url('Anuphan-SemiBold.ttf');
+    src: local('Anuphan SemiBold'), local('Anuphan_SemiBold'),
+        url('Anuphan-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Anuphan';
+    src: url('Anuphan-Bold.ttf');
+    src: local('Anuphan Bold'), local('Anuphan_Bold'),
+        url('Anuphan-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Anuphan';
+    src: url('Anuphan-ExtraBold.ttf');
+    src: local('Anuphan ExtraBold'), local('Anuphan_ExtraBold'),
+        url('Anuphan-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('picture/cow.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font: 900 3rem 'Premier League';
+    color: white;
+    font-size: 3rem;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.left-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50px;
+    background: #c2262d;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    z-index: 1;
+    transition: left 0.5s ease;
+}
+
+
+.menu {
+    list-style: none; 
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;  
+    padding: 0; 
+}
+
+.menu li {
+    display: flex;
+    justify-content: center;  
+}
+
+.menu i {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 18px;
+    padding: 12px;
+    border-radius: 5px;
+    transition: font-size 0.3s ease, transform 0.3s ease;
+}
+
+.menu i:hover {
+    font-size: 1.3em;
+    transform: scale(1.1);
+    background-color: #333;
+    background: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+
+.logo {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 2rem; 
+}
+.logo img {
+    width: 100%; 
+    height: auto;  
+    max-width: 50px; 
+    cursor: pointer;
+}
+
+
+.right-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 285px;
+    height: 90px;
+    background-color: #c2262d;
+} 
+
+.right-menu {
+    list-style: none;
+    position: fixed;
+    top: 36px;
+    right: 55px;
+    display: flex;
+    gap: 40px;
+    margin-left: auto;
+}
+
+.right-menu i {
+    color: #fff;
+    font-size: 20px;
+    transition: color 0.5s ease;
+    margin-left: 10px ;
+}
+
+.right-menu i:hover {
+    color: #000000;
+}
+
+.small-container {
+    position: fixed;
+    top: 0;
+    right: 190px;
+    width: 110px;
+    height: 90px;
+    background-color: #ffffff;
+    background-image: url('picture/scbm.png');
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-color 0.5s ease;
+}

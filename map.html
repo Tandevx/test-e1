@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benjama Link Up</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+          integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="stylemap.css">
+</head>
+<body>
+    <nav>
+        <div class="right-container">
+            <div class="nav-con-right">
+                <ul class="right-menu">
+                    <a href="report.html"><i class="fa-regular fa-circle-question"></i></a>
+                    <a href="sign-up.html"><i class="fa-solid fa-user"></i></a>
+                </ul>
+            </div>
+        </div>
+        <div class="small-container">
+        </div>
+        <div class="left-container">
+            <div class="nav-con">
+                <div class="logo">
+                    <img src="picture/bm logo.png" alt="Benjama Logo" class="Benjama-Logo">
+                </div>
+                <ul class="menu">
+                    <a href="index.html"><i class="fa-solid fa-house"></i></li></a>
+                    <a href="contact.html"><i class="fa-solid fa-phone"></i> </li></a>
+                    <a href="booking.html"><i class="fa-regular fa-bookmark"></i></li></a>
+                    <a href="more.html"><i class="fa-solid fa-ellipsis-vertical"></i></li></a>
+                </ul>
+            </div>
+        </div>
+    <button class="building-btn" style="top: 63%; left: 44%;" onclick="showBuildingInfo(1)">1</button>
+    <button class="building-btn" style="top: 60%; left: 41%;" onclick="showBuildingInfo(2)">2</button>
+    <button class="building-btn" style="top: 57%; left: 38%;" onclick="showBuildingInfo(3)">3</button>
+    <button class="building-btn" style="top: 53.5%; left: 35%;" onclick="showBuildingInfo(4)">4</button>
+    <button class="building-btn" style="top: 49%; left: 31%;" onclick="showBuildingInfo(5)">5</button>
+    <button class="building-btn" style="top: 35%; left: 60%;" onclick="showBuildingInfo(6)">6</button>
+    <button class="building-btn" style="top: 30%; left: 55%;" onclick="showBuildingInfo(7)">7</button>
+    <button class="building-btn" style="top: 37%; left: 70%;" onclick="showBuildingInfo(8)">8</button>
+    <button class="building-btn" style="top: 65%; left: 49.5%;" onclick="showBuildingInfo(9)">9</button>
+    <button class="building-btn" style="top: 54%; left: 73.5%;" onclick="showBuildingInfo(10)">10</button>
+    <button class="building-btn" style="top: 46.7%; left: 51%;" onclick="showBuildingInfo(11)">11</button>
+    <button class="building-btn" style="top: 58.5%; left: 22.5%;" onclick="showBuildingInfo(12)">12</button>
+    <button class="building-btn" style="top: 67%; left: 38%;" onclick="showBuildingInfo(13)">13</button>
+    <button class="building-btn" style="top: 40%; left: 60%;" onclick="showBuildingInfo(14)">14</button>
+    <button class="building-btn" style="top: 45%; left: 48.5%;" onclick="showBuildingInfo(15)">15</button>
+    <button class="building-btn" style="top: 62%; left: 27%;" onclick="showBuildingInfo(16)">16</button>
+    <button class="building-btn" style="top: 60%; left: 51.8%;" onclick="showBuildingInfo(17)">17</button>
+    <button class="building-btn" style="top: 46.5%; left: 81%;" onclick="showBuildingInfo(18)">18</button>
+    <button class="building-btn" style="top: 88.5%; left: 32.5%;" onclick="showBuildingInfo(19)">19</button>
+    <button class="building-btn" style="top: 52%; left: 67%;" onclick="showBuildingInfo(20)">20</button>
+    <button class="building-btn" style="top: 75%; left: 24%;" onclick="showBuildingInfo(21)">21</button>
+    <button class="building-btn" style="top: 47%; left: 46.7%;" onclick="showBuildingInfo(22)">22</button>
+    <button class="building-btn" style="top: 55.5%; left: 41.5%;" onclick="showBuildingInfo(23)">23</button>
+    <div id="building-info" class="info-box" style="display: none;">
+        <span class="close-btn" onclick="closeInfo()">❌</span>
+        <img id="building-image" src="" alt="Building Image">
+        <h2 id="building-title"></h2>
+        <p id="building-description"></p>
+    </div>
+    </section>
+    <section class="home background">
+        <img src="/picture/bmmap.jpg" alt="">
+    </section>
+    <script>
+        var prevScrollpos = window.pageYOffset;
+
+window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+
+    if (prevScrollpos > currentScrollPos) {
+        document.querySelector('.left-container').style.left = "0"; 
+    } else {
+        document.querySelector('.left-container').style.left = "-90px"; 
+    }
+
+    prevScrollpos = currentScrollPos;
+}
+    </script>
+
+<script>
+    const buildings = {
+    1: { 
+        title: "ตึก 1", 
+        description: "อาคารเรียนและอาคารประชาสัมพันธ์และหมวดภาษาไทย",
+        image: "picture/building1.jpg"
+    },
+    2: { 
+        title: "ตึก 2", 
+        description: "อาคารเรียนและหมวดคอมพิวเตอร์และสังคม",
+        image: "picture/building2.jpg"
+    },
+    3: { 
+        title: "ตึก 3", 
+        description: "อาคารเรียนและหมวดอังกฤษ",
+        image: "picture/building3.jpg"
+    },
+    4: { 
+        title: "ตึก 4", 
+        description: "อาคารเรียนและหมวดวิทยาศาสตร์ ",
+        image: "picture/building4.jpg"
+    },
+    5: { 
+        title: "ตึก 5", 
+        description: "อาคารเรียนและหมวดคณิต",
+        image: "picture/building5.jpg"
+    },
+    6: { 
+        title: "ตึก 6", 
+        description: "อาคารเรียน EP ",
+        image: "picture/building6.jpg"
+    },
+    7: { 
+        title: "ตึก 7", 
+        description: "อาคารเรียน SMTP ",
+        image: "picture/building7.jpg"
+    },
+    8: { 
+        title: "หอประชุมทัชมุณี", 
+        description: "มีเวทีสำหรับการแสดงและประชุมใหญ่",
+        image: "picture/building8.jpg"
+    },
+    9: { 
+        title: "หอสมุดเฉลิมพระเกียรติฯ", 
+        description: "สำหรับศึกษาและค้นคว้า",
+        image: "picture/building9.jpg"
+    },
+    10: { 
+        title: "ศูนย์กีฬา", 
+        description: "อาคารกิจกรรมและโรงยิม",
+        image: "picture/building10.jpg"
+    },
+    11: { 
+        title: "ห้องเขียนแบบ", 
+        description: "อาคารกิจกรรมและโรงยิม",
+        image: "picture/building11.jpg"
+    },
+    12: { 
+        title: "อาคารปฏิบัติการวิทยาศาสตร์", 
+        description: "วิทยาศาสตร์",
+        image: "picture/building12.jpg"
+    },
+    13: { 
+        title: "หอประชุมลานเข้าแถว", 
+        description: "สถานที่เข้าแถว",
+        image: "picture/building13.jpg"
+    },
+    14: { 
+        title: "ห้องประดู่แดง", 
+        description: "อยู่ใต้ตึก 6 ",
+        image: "picture/building14.png"
+    },
+    15: { 
+        title: "อาคารเกษตรกรรม" ,
+        description: "อาคารเกษตร",
+        image: "picture/building15.jpg"
+    },
+    16: { 
+        title: "พละศึกษา" ,
+        description: "อาคารเรียนพละศึกษา",
+        image: "picture/building16.jpg"
+    },
+    17: { 
+        title: "ศูนย์อาหาร" ,
+        description: "โรงอาคารและมีสำหรับการแสดง",
+        image: "picture/building17.jpg"
+    },
+    18: { 
+        title: "สระว่ายน้ำ" ,
+        description: "สระว่ายน้ำสำหรับบุคคลกรภายในโรงเรียน",
+        image: "picture/building18.jpg"
+    },
+    19: { 
+        title: "หอเกียรติยศ" ,
+        description: "แสดงผลงานและประวัติความเป็นมาของโรงเรียน",
+        image: "picture/building19.jpg"
+    },
+    20: { 
+        title: "ห้องน้ำหลากสี" ,
+        description: "ศูนย์บริการห้องน้ำหลากสี",
+        image: "picture/building20.jpg"
+    },
+    21: { 
+        title: "สนามกีฬา" ,
+        description: "สถานที่ที่ใช้สำหรับจัดกิจกรรมกีฬาต่างๆ",
+        image: "picture/building21.jpg"
+    },
+    22: { 
+        title: "เรือนพยาบาล" ,
+        description: "สถานที่ที่ใช้สำหรับการรักษาพยาบาล",
+        image: "picture/building22.jpg"
+    },
+    23: { 
+        title: "ลานมะขาม" ,
+        description: "ลานอเนกประสงค์เป็นพื้นที่ที่ออกแบบมาเพื่อใช้ประโยชน์หลายอย่าง",
+        image: "picture/building23.jpg"
+    },
+};
+
+function showBuildingInfo(buildingId) {
+    document.getElementById("building-title").innerText = buildings[buildingId].title;
+    document.getElementById("building-description").innerText = buildings[buildingId].description;
+    
+    // เปลี่ยนรูปภาพของตึก
+    document.getElementById("building-image").src = buildings[buildingId].image;
+    
+    document.getElementById("building-info").style.display = "block";
+}
+
+function closeInfo() {
+    document.getElementById("building-info").style.display = "none";
+}
+</script>

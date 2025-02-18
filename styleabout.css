@@ -1,0 +1,195 @@
+@font-face {
+    font-family: 'Premier League';
+    src: url('PremierLeague-Bold.eot');
+    src: local('Premier League Bold'), local('PremierLeague-Bold'),
+        url('PremierLeague-Bold.eot?#iefix') format('embedded-opentype'),
+        url('PremierLeague-Bold.woff2') format('woff2'),
+        url('PremierLeague-Bold.woff') format('woff'),
+        url('PremierLeague-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Premier League';
+    src: url('PremierLeague-Italic.eot');
+    src: local('Premier League Italic'), local('PremierLeague-Italic'),
+        url('PremierLeague-Italic.eot?#iefix') format('embedded-opentype'),
+        url('PremierLeague-Italic.woff2') format('woff2'),
+        url('PremierLeague-Italic.woff') format('woff'),
+        url('PremierLeague-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Premier League';
+    src: url('PremierLeague-HeavyItalic.eot');
+    src: local('Premier League Heavy Italic'), local('PremierLeague-HeavyItalic'),
+        url('PremierLeague-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('PremierLeague-HeavyItalic.woff2') format('woff2'),
+        url('PremierLeague-HeavyItalic.woff') format('woff'),
+        url('PremierLeague-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Premier League';
+    src: url('PremierLeague-Regular.eot');
+    src: local('Premier League'), local('PremierLeague-Regular'),
+        url('PremierLeague-Regular.eot?#iefix') format('embedded-opentype'),
+        url('PremierLeague-Regular.woff2') format('woff2'),
+        url('PremierLeague-Regular.woff') format('woff'),
+        url('PremierLeague-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Premier League';
+    src: url('PremierLeague-LightItalic.eot');
+    src: local('Premier League Light Italic'), local('PremierLeague-LightItalic'),
+        url('PremierLeague-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('PremierLeague-LightItalic.woff2') format('woff2'),
+        url('PremierLeague-LightItalic.woff') format('woff'),
+        url('PremierLeague-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Premier League';
+    src: url('PremierLeague-Heavy.eot');
+    src: local('Premier League Heavy'), local('PremierLeague-Heavy'),
+        url('PremierLeague-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('PremierLeague-Heavy.woff2') format('woff2'),
+        url('PremierLeague-Heavy.woff') format('woff'),
+        url('PremierLeague-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Premier League';
+    src: url('PremierLeague-Light.eot');
+    src: local('Premier League Light'), local('PremierLeague-Light'),
+        url('PremierLeague-Light.eot?#iefix') format('embedded-opentype'),
+        url('PremierLeague-Light.woff2') format('woff2'),
+        url('PremierLeague-Light.woff') format('woff'),
+        url('PremierLeague-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Premier League';
+    src: url('PremierLeague-BoldItalic.eot');
+    src: local('Premier League Bold Italic'), local('PremierLeague-BoldItalic'),
+        url('PremierLeague-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('PremierLeague-BoldItalic.woff2') format('woff2'),
+        url('PremierLeague-BoldItalic.woff') format('woff'),
+        url('PremierLeague-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Sukhumvit Set';
+    src: url('SukhumvitSet-Bold.ttf');
+    src: local('Sukhumvit Bold'), local('Sukhumvit-Bold'),
+        url('SukhumvitSet-Bold.tff') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sukhumvit Set';
+    src: url('SukhumvitSet-light.ttf');
+    src: local('Sukhumvit Light'), local('Sukhumvit-Light'),
+        url('SukhumvitSet-Light.tff') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sukhumvit Set';
+    src: url('SukhumvitSet-Medium.ttf');
+    src: local('Sukhumvit Medium'), local('Sukhumvit-Medium'),
+        url('SukhumvitSet-Medium.tff') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sukhumvit Set';
+    src: url('SukhumvitSet-SemiBold.ttf');
+    src: local('Sukhumvit SemiBold'), local('Sukhumvit-SemiBold'),
+        url('SukhumvitSet-SemiBold.tff') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sukhumvit Set';
+    src: url('SukhumvitSet-Text.ttf');
+    src: local('Sukhumvit Text'), local('Sukhumvit-Text'),
+        url('SukhumvitSet-Text.tff') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sukhumvit Set';
+    src: url('SukhumvitSet-Thin.ttf');
+    src: local('Sukhumvit Text'), local('Sukhumvit-Thin'),
+        url('SukhumvitSet-Thin.tff') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+    font-family: 'Premier League';
+    font-weight: 900;
+    font-style: normal;
+}
+
+.container1 {
+	background-color: #fff;
+	border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	overflow: hidden;
+	width: 650px;
+	max-width: 100%;
+	min-height: 540px;
+}
+
+body {
+	background: #b12929;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+	height: 100vh;
+	margin: -20px 0 50px;
+}
+
+p {
+    padding-top: 1%;
+    margin: 1rem;
+    font-family: 'Sukhumvit Set';
+    font-weight: 500;
+    font-size: 17px;
+}
